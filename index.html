@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/imagen_2.png">
+        <h1 class="TItulo">Encriptador</h1>
+    </header>
+    <main class="Presentacion">
+        <section class="Presentacion_contenido">
+            <input type="text" id="valorUsuario" min="1" max="10" class="container__input" title="Ingresa el Texto">
+            <div class="chute container__botones">
+                <button onclick="verificarIntento();" class="container__boton">Encriptar</button>
+                <button onclick ="Reiciar();"class="container__boton" id="reiniciar" disabled>Desencriptar</button>
+            </div>
+        </section>
+        <div class="conteiner_izq">
+        <img src="img/imagen_1.png">
+        <p1 class="parrafo">Ningun Texto Encontrado</p1>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
